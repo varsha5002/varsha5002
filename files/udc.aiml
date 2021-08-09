@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+ <category>
+  
+ <category><pattern>NAME</pattern>
+<template><random>
+<li>I AM </li>
+<li>CALL ME </li>
+<li>MY NAME IS</li>
+<li>I AM CALLED </li>
+</random></template>
+</category>
+  <pattern>HI</pattern>
+    <template>HELLO! HOW CAN I HELP YOU ?</template>
+    <pattern>WHAT IS YOUR NAME?</pattern>
+    <template>I AM VARSHA ?</template>
+  <category><pattern>WHAT WOULD YOU LIKE TO KNOW?</pattern>
+    <pattern>I WOULD LIKE TO JOIN GITAM UNIVERSITY</pattern>
+    <template>MY NAME IS VARSHA </template>
+  </category>
+  <category><pattern>*</pattern>
+    <pattern>WHAT SHOULD I DO TO JOIN GITAM?</pattern>
+    <template>YOU SHOULDD FILL APPLICATION </template>
+  </category>
+  <category><pattern>NAME</pattern>
+<template><random>
+<li>I AM </li>
+<li>CALL ME </li>
+<li>MY NAME IS</li>
+<li>I AM CALLED </li>
+</random>
+<category><pattern>WHERE IS GITAM LOCATED?</pattern>
+<template>IT IS LOCATED IN RUDRARAM, HYDERBAD.</template>
+</category>
+<category><pattern>HOW MANY BRANCHES DOES GITAM HAVE ?</pattern>
+<template>THERE ARE 3 BRANCHES.</template>
+</category>
+<category><pattern>WHERE ARE THIS BRANCHES LOCATED ?</pattern>
+<template>HYDERABAD, BANGULOR, VISAKAPATANAM.
+src="http://callmom.pandorabots.com/static/callmom/Super_Artwork/large/AIML_SUPER_256.png"/></template>
+</category>
+<category><pattern>WHAT COURSERS DOES GITAM HAVE?</pattern>
+<template>BCA, BEM, B. Sc., B. Sc. (Hons.), M. Sc., MC,
+Pharmacy
+B.Pharm, BBA, MBA, BCOM<random>
+<li>ALL COURES ARE MENTIONED.</li>
+<li>ALL ARE EXECLLENT COUSERS.</li>
+</random></template>
+</category>
+<category><pattern>WHAT IS THE FEE AT GITAM?</pattern>
+<template>IT ACTUALLY DEPENDS UPON THE COURSE YOU SELECT.</template>
+</category>
+<category><pattern>WHAT IS THE FEE FOR COMPUTER SCIENCE?</pattern>
+<template>FEE FOR CSE IS 3 LAHKS.</template>
+</category>
+<category><pattern>WHAT IS THE FEE FOR ECE?</pattern>
+<template>FEE FOR ECE IS 2LAHKS 20THOUSAND.</template>
+</category>
+<category><pattern>HOW TO FILL THE APPLICATION?</pattern>
+<template>SELECT THE COURSE AND FILL IN YOUR PERSONAL INFORMATION.</template>
+</category>
+<category><pattern>DOES GITAM HAVE BUS FACILITY?</pattern>
+<template>YES, BUSES ARE AVALIABLE.</template>
+</category>
+<category><pattern>WHAT IS THE FEE CHARGES FOR BUSES?</pattern>
+<template> PER MONTH.</template>
+<li>IT DEPENDS ON THE DISTANCE.</li>
+<li>WHERE YOU STAY ?.</li>
+</category>
+<category><pattern>HOW CAN WE GET ADMISSION IN GITAM?</pattern>
+<template><srai>FIRSTLY, WE HAVE TO WRITE GAT ENTRANCE EXAM.</srai></template>
+<category><pattern>DOES GITAM HAVE HOSTEL?</pattern>
+<li>YES, GITAM HAS HOSTEL FACILITIES TOO.</li>
+<li>IN HOSTELS FOOD IS ALSO DELICIOUS.</li>
+</category>
+<category><pattern>WHAT IS THE HOSTEL FEES?</pattern>
+<template>IT IS 10000    <pattern>HI</pattern>
+</category>
+
+<aiml>
+    
+</aiml>
