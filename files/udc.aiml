@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   
- <category><pattern>NAME</pattern>
-<template><random>
-<li>I AM </li>
-<li>CALL ME </li>
-<li>MY NAME IS</li>
-<li>I AM CALLED </li>
-</random></template>
-</category>
+ <category>
+   
   <pattern>HI</pattern>
     <template>HELLO! HOW CAN I HELP YOU ?</template>
     <pattern>WHAT IS YOUR NAME?</pattern>
@@ -62,18 +56,16 @@ B.Pharm, BBA, MBA, BCOM<random>
 <template>YES, BUSES ARE AVALIABLE.</template>
 </category>
 <category><pattern>WHAT IS THE FEE CHARGES FOR BUSES?</pattern>
-<template> PER MONTH.</template>
 <li>IT DEPENDS ON THE DISTANCE.</li>
 <li>WHERE YOU STAY ?.</li>
 </category>
 <category><pattern>HOW CAN WE GET ADMISSION IN GITAM?</pattern>
-<template><srai>FIRSTLY, WE HAVE TO WRITE GAT ENTRANCE EXAM.</srai></template>
+<template>FIRSTLY, WE HAVE TO WRITE GAT ENTRANCE EXAM.</template>
 <category><pattern>DOES GITAM HAVE HOSTEL?</pattern>
 <li>YES, GITAM HAS HOSTEL FACILITIES TOO.</li>
 <li>IN HOSTELS FOOD IS ALSO DELICIOUS.</li>
 </category>
 <category><pattern>WHAT IS THE HOSTEL FEES?</pattern>
-<template>IT IS 10000    
+<template>IT IS 10000 per month .</template>  
 </category>
-
 <aiml>
