@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
- <category>
   
  <category><pattern>NAME</pattern>
 <template><random>
@@ -74,9 +73,7 @@ B.Pharm, BBA, MBA, BCOM<random>
 <li>IN HOSTELS FOOD IS ALSO DELICIOUS.</li>
 </category>
 <category><pattern>WHAT IS THE HOSTEL FEES?</pattern>
-<template>IT IS 10000    <pattern>HI</pattern>
+<template>IT IS 10000    
 </category>
 
 <aiml>
-    
-</aiml>
